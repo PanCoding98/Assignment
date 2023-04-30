@@ -1,0 +1,40 @@
+.recommended {
+    overflow: hidden;
+    margin-top: 150px;
+}
+.recommended-w {
+    width: 1200px;
+    margin: 0 auto;
+}
+.recommended-product {
+    margin-bottom: 180px;
+    overflow: hidden;
+}
+.mocca-image {
+    float: left;
+    width: 300px;
+    height: 300px;
+}
+.mocca-description {
+    float: left;
+    width: 900px;
+    height: 300px;
+    background-color: rgba(226, 206, 29, 0.4);
+}
+.donut-image {
+    float: right;
+    width: 300px;
+    height: 300px;
+}
+.donut-description {
+    float: right;
+    width: 900px;
+    height: 300px;
+    background-color: rgba(235, 160, 21, 0.4);
+}
+.recommended-product p {
+    font: 400 20px 'Josefin Sans', sans-serif;
+    letter-spacing: .05em;
+    color: black;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,58 @@
+.menu {
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+.menu-w {
+    width: 1200px;
+    margin: 0 auto;
+}
+.product-type h2 {
+    font: 400 35px 'Lobster', sans-serif;
+    text-align: center;
+    letter-spacing: .05em;
+}
+.product-type .product {
+    float: left;
+    width: 273px;
+    height: 300px;
+    border: grey 1px solid;
+    margin: 20px 12.5px;
+}
+.product .image {
+    width: 100%;
+    height: 60%;
+}
+.product .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* coffee part */
+.product .image .modify-expresso {
+    object-position: 0 -100px;
+}
+/* cake part */
+.product .image .modify-chiffon {
+    object-position: 0 -80px;
+}
+.product .image .modify-pan {
+    object-position: 0 -80px;
+}
+.product .name {
+    margin-top: 30px;
+    font: 600 25px 'Lobster', sans-serif;
+    text-align: center;
+    letter-spacing: .05em;
+}
+.product .price {
+    margin-top: 20px;
+    font: 400 20px 'Lobster', sans-serif;
+    text-align: center;
+    letter-spacing: .1em;
+}
+
+
+
+
+
+

@@ -1,0 +1,31 @@
+.galery {
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+.galery-w {
+    width: 1200px;
+    margin: 0 auto;
+}
+.galery-w h2 {
+    font: 400 35px 'Lobster', sans-serif;
+    text-align: center;
+    letter-spacing: .05em;
+}
+.galery-w .image {
+    float: left;
+    width: 273px;
+    height: 300px;
+    margin: 20px 12.5px;
+}
+.galery-w .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+
+

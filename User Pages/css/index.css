@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+/* base part */
+* {
+    margin: 0;
+	padding: 0;
+}
+ul, li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #000
+}
+body {
+    font-family: Helvetica, sans-serif;
+    background: #f2f2f2;
+}
+/* banner part */
+.banner {
+    height: 200px; 
+    background: url(../images/banner.jpg) no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+.banner-text h1 {
+    font-size: 60px;
+    letter-spacing: .1em; 
+    color: white;
+    text-shadow: 2px 2px 6px #000;
+    text-align: center;
+    line-height: 200px;
+}
+/* nav part */
+.nav {
+    position: relative;
+    height: 50px;
+    margin-bottom: 100px;
+}
+.nav-text {
+    width: 1000px;
+    height: 50px;
+    margin: auto;
+}
+.nav-text ul {
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-text ul li a {
+    font: 700 16px 'Josefin Sans', sans-serif;
+    color: #000;
+    letter-spacing: .3em;
+}
+.nav-text ul li a:hover {
+    cursor: pointer;
+    color: red;
+}
+.sign-up {
+    position: absolute;
+    height: 40px;
+    right: 1%;
+    top: 50%;
+    margin-top: -20px;
+}
+.login {
+    position: absolute;
+    height: 40px;
+    right: 7%;
+    top: 50%;
+    margin-top: -20px;
+}
+.sign-up button, .login button {
+    width: 80px;
+    height: 40px;
+    border: transparent 1px solid;
+    border-radius: 15px;
+}
+.sign-up button {
+    background-color: rgb(231, 40, 34);
+}
+.login button {
+    background-color: rgb(35, 255, 71);
+}
+.sign-up button a, .login button a {
+    font: 16px 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    color: white;
+    letter-spacing: .05em;
+}
+/* body part */
+.body {
+    font: 400 24px 'Josefin Sans', sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: rgb(184, 182, 182);
+    text-decoration-thickness: 2px;
+    letter-spacing: .1em;
+    margin-bottom: 100px;
+}
+.body .margin-bottom {
+    margin-bottom: 40px;
+}
+/* footer part */
+.footer {
+    font: 400 16px Helvetica, sans-serif;
+    color: #feffff;
+    background-color: #70ac2c;
+    letter-spacing: .1em;
+}
+.footer-text {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    margin: auto;
+    padding: 50px 0 50px;
+}
+.footer-text p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.footer-text ul li {
+    margin-bottom: 15px;
+}
+#fb-icon, #ig-icon {
+    float: left;
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+}
+.footer-right iframe {
+    width: 420px;
+    height: 300px;
+    border: grey 2px dashed;
+}
+
